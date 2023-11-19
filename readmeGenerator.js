@@ -26,7 +26,7 @@ const qs = [
   {
     type: "input",
     name: "contents",
-    message: "What are the sections you want in this readme?",
+    message: "What are the contents you want in this readme?",
   },
   {
     type: "input",
