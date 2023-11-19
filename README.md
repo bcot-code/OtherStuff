@@ -7,6 +7,7 @@ it’s important to have a high-quality README for the app. This should include 
 ## TABLE OF CONTENT
 
 - [UserStory](#user)
+- [Screencastify Tutor:](#screencastify)
 - [Installation](#install)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
@@ -16,9 +17,20 @@ it’s important to have a high-quality README for the app. This should include 
 
 As a professional, I want to generate a readme file for my project so that other developers can easily understand the purpose and functionality of my code.
 
+## Screencastify Tutor
+
+[Tutorial how to use app]()
+
 ## Installation
 
 To install the application, you need to have Node.js installed on your computer. You can download it from https://nodejs.org/en
+Also includes an Inquirer package which you will in this
+link : (https://www.npmjs.com/package/inquirer/v/8.2.4).
+
+To install necessary dependencies, run the following command:
+[Followed by instructions](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+
+[Download The Readme Generator](https://github.com/bcot-code/OtherStuff?search=1)
 
 ## Usage
 
@@ -28,4 +40,8 @@ To install the application, you need to have Node.js installed on your computer.
 
 ## Screenshots
 
+[Preview README sample](![Alt text](image.png))
+
 ## Repository
+
+[My GitHub](https://github.com/bcot-code/OtherStuff)
