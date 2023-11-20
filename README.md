@@ -40,7 +40,7 @@ To install necessary dependencies, run the following command:
 
 ## Screenshots
 
-[Preview README sample](![Alt text](image.png))
+[Preview README sample](![Alt text](/image/screenshotreadmePreview.png))
 
 ## Repository
 
