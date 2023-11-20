@@ -46,7 +46,7 @@ const qs = [
   {
     type: "list",
     name: "license",
-    choices: ["MIT", "Apache_2.0", "GPL-3.0", "None"],
+    choices: ["mit", "apache_2.0", "gpl-3.0", "None"],
   },
   {
     type: "input",

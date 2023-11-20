@@ -1,6 +1,6 @@
 
-  # Marvels
-  ![GitHub License](https://img.shields.io/badge/license-MIT-blue)
+  # MARVELS
+  ![GitHub License](https://img.shields.io/badge/license-mit-blue)
 
 
 
@@ -14,39 +14,34 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
-- links , resources
+- Links, Resources, and images
 
 
-## Description(#table-of-contents)
+## [Description](#table-of-contents)
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 Girls in Power
 
-## Installation(#table-of-contents)
+## [Installation](#table-of-contents)
+Node js
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-## Usage(#table-of-contents)
+## [Usage](#table-of-contents)
 
 Provide instructions and examples ...
-help in contributing 
+ Inquirer
 
-## License(#table-of-contents)
+## [License](#table-content)
+    This project is licensed under ![mit](https://choosealicense.com/licenses/mit)
 
- ## License (#table-content)
-    This app is covered by :
-    [MIT](https://choosealicense.com/licenses/MIT)
+## [Contributing](#table-of-contents)
 
-## Contributing(#table-of-contents)
+pulling
 
-adding more resources those in need of help
+## [Tests](#table-of-conents)
 
-## Tests(#table-of-conents)
 
-Following the linkin
 
-## Questions(#table-of-contents)
+## [Questions](#table-of-contents)
 
-Any further questions don't hestiate to reach me at  to lol or via gmail.com
-## Optional Content
+Any further questions don't hestiate to reach me at  to Git or via gmail.com
+## [Optional Content](#table-of-contents)
 undefined

@@ -11,10 +11,10 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license === "None") {
-    return "";
+  if (license !== "None") {
+    return `![${license}](https://choosealicense.com/licenses/${license})`;
   } else {
-    return `[${license}](https://choosealicense.com/licenses/${license})`;
+    return "";
   }
 }
 
@@ -22,9 +22,9 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "None") {
-    return `## License (#table-content)
-    This app is covered by :
-    ${renderLicenseLink(license)}`;
+    return `## [License](#table-content)
+    
+    This project is licensed under ${renderLicenseLink(license)}`;
   } else {
     return ``;
   }
@@ -57,38 +57,34 @@ ${renderLicenseTOC(data.license)}
 - ${data.contents}
 
 
-## Description(#table-of-contents)
+## [Description](#table-of-contents)
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 ${data.description}
 
-## Installation(#table-of-contents)
+## [Installation](#table-of-contents)
+${data.installation}
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-## Usage(#table-of-contents)
+## [Usage](#table-of-contents)
 
 Provide instructions and examples ...
 ${data.usage}
 
-## License(#table-of-contents)
+${renderLicenseSection(data.license)}
 
- ${renderLicenseSection(data.license)}
-
-## Contributing(#table-of-contents)
+## [Contributing](#table-of-contents)
 
 ${data.contribution}
 
-## Tests(#table-of-conents)
+## [Tests](#table-of-conents)
 
 ${data.test}
 
-## Questions(#table-of-contents)
+## [Questions](#table-of-contents)
 
 Any further questions don't hestiate to reach me at  to ${data.github} or via ${
     data.email
   }
-## Optional Content
+## [Optional Content](#table-of-contents)
 ${data.content}
 `;
 }
