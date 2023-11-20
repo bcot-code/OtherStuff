@@ -19,7 +19,7 @@ As a professional, I want to generate a readme file for my project so that other
 
 ## Screencastify Tutor
 
-[Tutorial how to use app](https://watch.screencastify.com/v/g3HRYyd23O333aJiwiMq)
+[Tutorial how to use app](https://watch.screencastify.com/v/qj1NZVZPM64IXLgq5Qdh)
 
 ## Installation
 
